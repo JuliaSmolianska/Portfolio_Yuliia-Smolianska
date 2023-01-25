@@ -51,9 +51,20 @@ h5 {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.primary-link:hover {
+.primary-link:hover,
+.card-link:hover {
   opacity: 0.8;
   color: white;
+  cursor: pointer;
+}
+.card-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: larger;
 }
 .border-primar {
   border: 2px solid var(--primary-color);
