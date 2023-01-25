@@ -79,6 +79,7 @@ h5 {
   border: 2px solid var(--primary-color);
   border-radius: 10px;
   background-color: white;
+  min-height: 220px;
 }
 .bg-content {
   background-color: var(--secondary-color);
