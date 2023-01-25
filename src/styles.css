@@ -79,7 +79,6 @@ h5 {
   border: 2px solid var(--primary-color);
   border-radius: 10px;
   background-color: white;
-  min-height: 220px;
 }
 .bg-content {
   background-color: var(--secondary-color);
@@ -133,7 +132,12 @@ h5 {
   background-color: rgba(252, 252, 252, 0.7);
 }
 .margin-top {
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+.margin-top {
   margin-top: 100px;
+  }
 }
 .text-home {
   font-size: 20px;
